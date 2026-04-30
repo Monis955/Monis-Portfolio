@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Monis Rashid Khan - WordPress Developer & UI/UX Designer Portfolio">
+    <title>Monis Rashid Khan | WordPress Developer & UI/UX Designer</title>
+    
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Prevent blank page if JS is disabled/blocked -->
+    <script>document.documentElement.classList.add('js-enabled');</script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#hero">MRK.</a>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-toggle" id="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-wrapper fade-in">
+                <div class="hero-content">
+                    <p class="greeting">Hello, I am</p>
+                    <h1 class="hero-title">Monis Rashid Khan</h1>
+                    <h2 class="hero-subtitle">WordPress Developer <span class="divider">|</span> UI/UX Designer</h2>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-phone" style="margin-right: 8px;"></i> Call Me</a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=monis.rashid2060955@gmail.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> Email Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="profile.jpeg" alt="Monis Rashid Khan" class="profile-img">
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container fade-in">
+                <div class="section-heading text-center">
+                    <h2>About Me</h2>
+                    <div class="heading-line"></div>
+                </div>
+                <div class="about-content text-center">
+                    <p class="lead-text">
+                        "WordPress Developer & UI/UX Designer focused on creating clean, responsive and high-performing websites."
+                    </p>
+                    <p class="sub-text">
+                        I specialize in bridging the gap between exceptional design and flawless functionality, delivering digital experiences that engage users and drive results.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section id="projects" class="projects-section section-padding bg-light">
+            <div class="container fade-in">
+                <div class="section-heading text-center">
+                    <h2>Projects Showcase</h2>
+                    <div class="heading-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <a href="https://deansneckties.com/" target="_blank" rel="noopener noreferrer" class="project-card">
+                        <div class="project-image">
+                            <!-- Using local screenshot of the homepage -->
+                            <img src="images/deans.jpg" alt="Dean's Neckties Homepage Screenshot" loading="lazy">
+                            <div class="project-overlay">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <span>Visit Website</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Dean's Neckties</h3>
+                            <p class="project-category">E-Commerce</p>
+                        </div>
+                    </a>
+
+                    <!-- Project 2 -->
+                    <a href="https://thenhresorts.com/" target="_blank" rel="noopener noreferrer" class="project-card">
+                        <div class="project-image">
+                            <img src="images/nhresorts.jpg" alt="The NH Resorts Homepage Screenshot" loading="lazy">
+                            <div class="project-overlay">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <span>Visit Website</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>The NH Resorts</h3>
+                            <p class="project-category">Hospitality</p>
+                        </div>
+                    </a>
+
+                    <!-- Project 3 -->
+                    <a href="https://green-vulture-598118.hostingersite.com/" target="_blank" rel="noopener noreferrer" class="project-card">
+                        <div class="project-image">
+                            <img src="images/turoon.jpg" alt="Turoon Homepage Screenshot" loading="lazy">
+                            <div class="project-overlay">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <span>Visit Website</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Turoon</h3>
+                            <p class="project-category">Business</p>
+                        </div>
+                    </a>
+
+                    <!-- Project 4 -->
+                    <a href="https://noorsonsworld.com/" target="_blank" rel="noopener noreferrer" class="project-card">
+                        <div class="project-image">
+                            <img src="images/noorsons.jpg" alt="Noor Sons World Homepage Screenshot" loading="lazy">
+                            <div class="project-overlay">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <span>Visit Website</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Noor Sons World</h3>
+                            <p class="project-category">Corporate</p>
+                        </div>
+                    </a>
+
+                    <!-- Project 5 -->
+                    <a href="https://hra-engineering.com/" target="_blank" rel="noopener noreferrer" class="project-card">
+                        <div class="project-image">
+                            <img src="images/hra.jpg" alt="HRA Engineering Homepage Screenshot" loading="lazy">
+                            <div class="project-overlay">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                <span>Visit Website</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>HRA Engineering</h3>
+                            <p class="project-category">Engineering</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section section-padding">
+            <div class="container fade-in">
+                <div class="section-heading text-center">
+                    <h2>Services</h2>
+                    <div class="heading-line"></div>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-brands fa-wordpress"></i></div>
+                        <h3>WordPress Website Development</h3>
+                        <p>Custom, scalable, and secure WordPress solutions tailored to your brand.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-brands fa-elementor"></i></div>
+                        <h3>Elementor / Custom Design</h3>
+                        <p>Pixel-perfect website creation using modern page builders and custom CSS.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <h3>WooCommerce Development</h3>
+                        <p>Robust e-commerce platforms designed to maximize conversions.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3>Website Speed Optimization</h3>
+                        <p>Performance tuning to ensure blazing fast load times for better UX and SEO.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <h3>Responsive Design</h3>
+                        <p>Flawless experiences across all devices: desktop, tablet, and mobile.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-wrench"></i></div>
+                        <h3>Bug Fixing & Maintenance</h3>
+                        <p>Reliable support to keep your website running smoothly and securely.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <h3>UI/UX Design</h3>
+                        <p>Intuitive user interfaces and engaging user experiences from research to delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding bg-light">
+            <div class="container fade-in">
+                <div class="section-heading text-center">
+                    <h2>Professional Skills</h2>
+                    <div class="heading-line"></div>
+                </div>
+                
+                <div class="skills-container">
+                    <div class="skill-badge">
+                        <i class="fa-brands fa-wordpress skill-icon"></i>
+                        <span>WordPress</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-brands fa-elementor skill-icon"></i>
+                        <span>Elementor</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-cart-shopping skill-icon"></i>
+                        <span>WooCommerce</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-brands fa-html5 skill-icon"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-brands fa-css3-alt skill-icon"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-brands fa-js skill-icon"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-pen-nib skill-icon"></i>
+                        <span>UI/UX Design</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-image skill-icon"></i>
+                        <span>Adobe Photoshop</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-bezier-curve skill-icon"></i>
+                        <span>Adobe Illustrator</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-mobile-screen skill-icon"></i>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-magnifying-glass-chart skill-icon"></i>
+                        <span>SEO Basics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container fade-in">
+                <div class="section-heading text-center">
+                    <h2>Get In Touch</h2>
+                    <div class="heading-line"></div>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <p class="contact-intro">Let's discuss how we can work together to bring your next digital project to life.</p>
+                    
+                    <div class="contact-info-container">
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Call Me</span>
+                                <a href="tel:03324741410" class="contact-value">0332 4741410</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon-wrapper">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email Me</span>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=monis.rashid2060955@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-value">monis.rashid2060955@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Monis Rashid Khan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
